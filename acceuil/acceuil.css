@@ -1,0 +1,31 @@
+* {
+  /* background-color: brown; */
+}
+
+/* ------*************--------------header--------********************------ */
+header {
+  border-style: solid;
+  border-color: blue;
+}
+.header-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* ------*************--------------main--------********************------ */
+main {
+  border-style: solid;
+  border-color: rgb(255, 0, 0);
+}
+.maintop > p {
+  font-family: "Bebas Neue", sans-serif;
+}
+.maintop > p + button {
+  background-color: rgb(19, 2, 249);
+}
+/* ------*************--------------footer--------********************------ */
+footer {
+  border-style: solid;
+  border-color: rgb(0, 255, 60);
+}
